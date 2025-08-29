@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso primeiro ano! </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="netflix.png" alt="" width="60px">
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Minha Lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo">Weslley Castro e Nayra Dávilly</p>
+            <p class="detalhes">
+                <span> 6 DE SETEMBRO, 1ᵃ TEMPORADA </span>
+                <span class="stars">
+                    <i class="fa-solid fa-star" style="color: #fe0101;"></i>
+                    <i class="fa-solid fa-star" style="color: #fe0101;"></i>
+                    <i class="fa-solid fa-star" style="color: #fe0101;"></i>
+                    <i class="fa-solid fa-star" style="color: #fe0101;"></i>
+                    <i class="fa-solid fa-star" style="color: #fe0101;"></i>
+                </span>
+                <P class="descricao">
+                Desde a infância nos conhecemos. Em 2022 nos tornamos grandes amigos, mas sem quaisquer intenções
+                para além da amizade. Os anos se passaram, e de repente meus olhos começaram a enxergar para além
+                da amizade que tínhamos: 'será que eu estou apaixonado?' - pensei. De repente, minha frequência 
+                cardíaca acelerava intensamente quando estava em sua presença: meu olhos não escondiam o desejo
+                de tê-la somente para mim, não como uma conquista, mas como uma companheira de domingo a domingo.
+                De repente, somos uma união inseparável comemorando nossa primeira temporada juntos! Nosso primeiro
+                ano chegou, meu amor! Muito obrigado por me proporcionar tanta felicidade e por estar sempre ao meu
+                lado, mesmo quando eu não tenho muito a te oferecer. Que eu seja seu "Ben" e você minha "Fallon", já
+                que eu te suplico: "Não quero ser seu primeiro, Dávilly. Eu quero ser seu último".
+                Nossa linda história de amor está apenas começando! Que venham mais temporadas; que venham mais amores;
+                que venham mais declarações; que sejamos tão eternos quanto o karma. Eu te amo, minha "Fallon"; meu eterno retorno!
+                -De seu "Ben";  Seu eterno retorno!
+                </P>
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i> continuar</button>
+                    <button> <i class="fa-solid fa-star" style="color: #000000;"></i> Favorito</button>
+                </div>
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos melhores Momentos :) </h2>
+
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"> <img src="./fotos/foto costas2.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/foto espelho ano novo.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/foto DNJ.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/foto espelho distraido.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/coraçãozinho.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/natal.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/juntinhos.png"></div>
+    <div class="swiper-slide"> <img src="./fotos/festinha.png"></div>
+</div>
+
+
+</div>
+
+
+    </section>
+
+    <footer>
+        2025 - Weslley Castro - todos os direitos reservados
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction:false,
+            },
+            slidesPerView:2,
+            spaceBetween: 10,
+            loop:true,
+            Breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween: 15,
+                },
+                900: {
+                    loop: true,
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+
+                }
+            }
+        })
+
+    </script>
+</body>
+</html>
