@@ -27,7 +27,7 @@ color: white;
 
 .banner{
     position: relative;
-    background: url(./fotos/fotomaos.png) no-repeat center center/cover;
+    background: url(fotomaos.png) no-repeat center center/cover;
     padding: 200px 1rem 2rem;
     background-size: cover;
 }
